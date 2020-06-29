@@ -1,37 +1,44 @@
-<p align="center">
-  <a href="https://www.udacity.com/">
-    <img src='https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5511/s300/udacity-logo.png' alt="Udacity logo" width = 100px>
-   </a>
-</p>
-<h3 align="center"><a href='https://www.udacity.com/course/data-scientist-nanodegree--nd025'>Udacity Data Scientist Nanodegree Program</a></h3>
-<h4 align="center">Project I: Write a Data Science Blog Post</h4>
+# Write a Data Science blog post
+Udacity Data Scientist Nanodegree Project.
 
-## Table of Contents
-- [Installation](#installation)
-- [Project Motivation](#motivation)
-- [Results](#results)
-- [Licensing, Authors, and Acknowledgements](#licensing)
+### Table of Contents
+
+1. [Installation](#installation)
+2. [Project Motivation](#motivation)
+3. [File Description](#files)
+4. [Results](#results)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
-You need to be able to work in a Jupyter Notebook on your computer. The following packages (libraries) need to be installed. You can install these packages via conda or pip.
 
-- Numpy
-- Pandas
-- Matplotlib
-- Seaborn
-- jupyterthemes
+This code runs with Python version 3.* and requires some libraries, to install theses libraries you will need to execute: </br>
+` pip install -r requirements.txt `
 
-You will need to download Stackoverflow’s 2017 and 2018 Annual Developer Survey and put in specific folders. You can find the data to download [here](https://insights.stackoverflow.com/survey). 
+You will need to download Stackoverflow’s 2017 and 2018 Annual Developer Survey and put in specific folders. You can find the data to download [here](https://insights.stackoverflow.com/survey). </br>
+
+To move the downloaded files to the specific folder, you can execute. </br>
+
+1. Stackoverflow’s 2017 data </br>
+` mv survey_results_public.csv Write-a-Data-Science-Blog-Post/data/2017/survey_results_public.csv `</br>
+
+2. Stackoverflow’s 2018 data </br>
+` mv survey_results_public.csv Write-a-Data-Science-Blog-Post/data/2018/survey_results_public.csv `</br>
+
+## File Description <a name="files"></a>
+
+**exploratory_analysis.ipynb**: Notebook containing the data analysis. </br>
+**data/2017/survey_results_public.csv**: Stackoverflow's 2017 Annual Developer Survey data. </br>
+**data/2018/survey_results_public.csv**: Stackoverflow's 2018 Annual Developer Survey data. </br>
 
 ## Project Motivation <a name="motivation"></a>
 
-This is an Udacity Nanodegree project.I was interested in using Stackoverflow Developer Survey Data to better understand: </br>
-- What Programming Languages are most used to work and Which Programming Languages are most Required in Stackoverflow survey data of 2017 and 2018 ?
-- How does Programming Languages used at work relates with Programming Languages, People Wants to Learn in India According to Stackoverflow survey data of 2017 and 2018?
-- What are the most wanted Programming Languages in India According to Stackoverflow survey data of 2017 and 2018?
+This is an Udacity Nanodegree project.I was interested in using Stackoverflow Developer Survey Data to better understand:</br>
+1. What are the most used programming languages in Brazil? </br>
+2. What are the most wanted programming languages in Brazil? </br>
+3. How does programming languages used at work relates with programming languages people want to learn? </br>
 
 ## Results <a name="results"></a>
-The main findings of the code can be found at the post available [here](https://dev.to/ankit1797/stack-overflow-survey-in-india-58jd)
+The main findings of the code can be found at the post available [here](https://dev.to/ankit1797/what-are-the-most-common-programming-languages-used-in-brazil-1obn)
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 Must give credit to Stackoverflow for the data. You can find the Licensing for the data and other descriptive information at the Stackoverflow link available [here](https://insights.stackoverflow.com/survey).
